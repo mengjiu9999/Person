@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		184977741FD905F20059A27E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 184977731FD905F20059A27E /* main.m */; };
+		1849777C1FD906060059A27E /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 1849777B1FD906060059A27E /* Person.m */; };
+		1849777F1FD906570059A27E /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 1849777E1FD906570059A27E /* Student.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		184977701FD905F20059A27E /* Person */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Person; sourceTree = BUILT_PRODUCTS_DIR; };
 		184977731FD905F20059A27E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1849777A1FD906060059A27E /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		1849777B1FD906060059A27E /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		1849777D1FD906570059A27E /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		1849777E1FD906570059A27E /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				184977731FD905F20059A27E /* main.m */,
+				1849777A1FD906060059A27E /* Person.h */,
+				1849777B1FD906060059A27E /* Person.m */,
+				1849777D1FD906570059A27E /* Student.h */,
+				1849777E1FD906570059A27E /* Student.m */,
 			);
 			path = Person;
 			sourceTree = "<group>";
@@ -119,7 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1849777C1FD906060059A27E /* Person.m in Sources */,
 				184977741FD905F20059A27E /* main.m in Sources */,
+				1849777F1FD906570059A27E /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

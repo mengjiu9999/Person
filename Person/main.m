@@ -7,11 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "Person.h"
+#import "Student.h"
 int main(int argc, const char * argv[]) {
-    @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
-    }
-    return 0;
+    Person *p1 =[Person new];
+    Student *p2 =[Student new];
+    p1.name = @"b";
+    p1.number = @"abc";
+    p2.score = 1;
+    [p1 description];
+    [p2 description];
+    
 }
